@@ -12,5 +12,6 @@ function generateExcuse() {
 
     let excuse = randomWho + " " + randomAction + " " + randomWhat + " " + randomWhen;
     
-    document.getElementById('excuse').innerHTML = excuse;
+    const titleElement = document.querySelector('#excuse');
+    titleElement.innerHTML = excuse;
 }
